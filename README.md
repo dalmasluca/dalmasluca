@@ -80,5 +80,6 @@ gitGraph
        
        checkout main
        branch develop3 order: 4
+       checkout develop3
        commit id: "Computer Science" tag: "UNIMI" type: REVERSE
 ```
