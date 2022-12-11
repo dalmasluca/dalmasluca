@@ -75,4 +75,6 @@ gitGraph
        checkout main
        merge develop2
        
+       checkout scout
+       commit id: "Continue scouting"
 ```
