@@ -71,13 +71,4 @@ gitGraph
        checkout develop
        commit id: "Computer Science" tag: "UNITN" type: REVERSE
        
-       checkout main
-       merge develop
-       
-       branch develop order: 3
-       commit id: "Re-Start University"
-       
-       
-       commit id: "Computer Science" type: HIGHLIGHT tag: "UNIMI"
-       
 ```
