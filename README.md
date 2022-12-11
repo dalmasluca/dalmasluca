@@ -72,4 +72,7 @@ gitGraph
        checkout develop2
        commit id: "Computer Science" tag: "UNITN" type: REVERSE
        
+       checkout main
+       merge develop2
+       
 ```
