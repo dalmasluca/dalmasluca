@@ -75,14 +75,13 @@ gitGraph
        checkout main
        merge develop2
        
-       checkout scout
-       commit id: "Continue scouting"
-       
        checkout main
        commit id: "Re-Start University"
        branch develop3 order: 4
        checkout develop3
        commit id: "Computer Science 2" tag: "UNIMI" type: REVERSE
-      
+       
+       checkout scout
+       commit id: "Continue scouting"
        
 ```
