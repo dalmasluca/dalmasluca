@@ -1,5 +1,5 @@
 
-## 'std::cout << 'Hello World << std::endl;'
+## `print("Hello, world!")`
 
 ```mermaid
 %%{init:{
