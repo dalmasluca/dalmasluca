@@ -68,7 +68,8 @@ gitGraph
        merge develop tag: "Scientific HSD"
        commit id: "Start University"
        
-       checkout develop
+       branch develop 2 order:4
+       checkout main
        commit id: "Computer Science" tag: "UNITN" type: REVERSE
        
 ```
