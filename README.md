@@ -80,6 +80,7 @@ gitGraph
        
        checkout main
        commit id: "Re-Start University"
+       branch develop5 order: 5
        
       
        
