@@ -77,4 +77,8 @@ gitGraph
        
        checkout scout
        commit id: "Continue scouting"
+       
+       checkout main
+       merge develop2 order: 4
+       commit id: "Computer Science" tag: "UNIMI" type: REVERSE
 ```
