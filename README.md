@@ -69,7 +69,7 @@ gitGraph
        commit id: "Start University"
        
        branch develop2 order: 4
-       checkout main
+       checkout develop2
        commit id: "Computer Science" tag: "UNITN" type: REVERSE
        
 ```
