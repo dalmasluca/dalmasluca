@@ -79,6 +79,7 @@ gitGraph
        commit id: "Continue scouting"
        
        checkout main
+       commit id: "Re-Start University"
        branch develop3 order: 5
        checkout develop3
        commit id: "Computer Science" tag: "UNNIMI" type: REVERSE
