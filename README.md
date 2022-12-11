@@ -1,4 +1,7 @@
-printf( "Hello World!" );
+
+## `std::cout << "Hello World" << std::endl;'
+
+```mermaid
 %%{init:{
         'logLevel': 'debug',
         'theme': 'base',
@@ -67,24 +70,7 @@ gitGraph
        
        branch test order: 4
        checkout test
-       commit id: "Automation Engineering" tag: "UNIBO" type: REVERSE
-       
-       checkout main
-       commit id: "Start Working"
-       
-       branch work order: 0
-       checkout work
-       commit id: "Bonaveri"
-       
-       checkout scout
-       commit id: "Scouts’ Salute"
-       
-       checkout main
-       merge scout
-       
-       checkout work
-       commit id: "YooX"
-       commit id: "BoGreen"
+       commit id: "Computer Science" tag: "UNITN" type: REVERSE
        
        checkout main
        commit id: "Re-Start University"
@@ -92,9 +78,6 @@ gitGraph
        branch develop2 order: 5
        checkout develop2
        
-       commit id: "Computer Science" type: HIGHLIGHT tag: "UNITN"
+       commit id: "Computer Science" type: HIGHLIGHT tag: "UNIMI"
        
-       branch feature order: 6
-       checkout feature
-       commit id: "IDS in Bioinformatics" type: HIGHLIGHT
-       
+```
